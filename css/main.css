@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: blue;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: blue;
     text-shadow: none;
 }
 
@@ -57,7 +57,8 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
+    font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
@@ -70,18 +71,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #A8ADB2;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #A8ADB2;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #638592;
 }
 
 .title {
@@ -103,12 +104,12 @@ nav a {
     margin-bottom: 10px;
     padding: 15px 0;
 
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #FB6900;
 }
 
 nav a:hover,
@@ -215,9 +216,10 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        /*-webkit-box-shadow: 0 5px 10px #aaa;*/
+           /*-moz-box-shadow: 0 5px 10px #aaa;*/
+                /*box-shadow: 0 5px 10px #aaa;*/
+                font-size:1.5em;
     }
 
 /* ============
@@ -255,7 +257,7 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1140px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }

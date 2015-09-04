@@ -1,2 +1,6 @@
-# This is a H5BP customized boilerplate
-This project uses the responsive template
+# Portfolio Template
+## Description
+This project is a simple portfolio template that uses initializr. 
+
+## Additions
+- Google Fonts - Raleway
