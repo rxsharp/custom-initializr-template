@@ -1,5 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
+@import "portfolio.css";
 html {
     color: #222;
     font-size: 1em;
@@ -67,24 +67,25 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    Color Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #A8ADB2;
+    border-bottom: 10px solid #A8ADB2;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #A8ADB2;
+    border-top: 10px solid #A8ADB2;
 }
 
 .header-container,
-.footer-container,
 .main aside {
-    background: #638592;
+    background: #566D76;
 }
-
+.footer-container{
+background: #331829;
+}
 .title {
     color: white;
 }
